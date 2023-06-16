@@ -87,7 +87,7 @@ function App() {
   }
   
   return (
-    <div className='flex flex-col justify-center items-center h-screen w-screen font-extrabold'>
+    <div className='flex flex-col justify-center items-center h-screen w-screen font-bold'>
       <div className='flex flex-col justify-evenly items-center h-full w-screen p-2'>
         <p className='text-6xl'><span className='text-red-400'>Tic</span> <span className='text-blue-400'>Tac</span> <span className='text-emerald-400'>Toe</span></p>
         <p className='text-2xl text-main'><span className='text-red-400'>You {playerScore}</span> : <span className='text-blue-400'>{AIScore} AI</span></p>
@@ -109,7 +109,7 @@ function App() {
         <button onClick={restart}
           className='text-main text-2xl bg-purple p-1 px-2 rounded-lg mt-4 duration-200 hover:bg-violet-800'>Restart</button>
       </div>
-      <p className='text-main'>© Tic-Tac-Toe by Tengo Lomidze 2023</p>
+      <p className='text-main text-center'>© Tic-Tac-Toe by Tengo Lomidze 2023.   <a href='https://github.com/tengolomidze' className='text-blue-300 underline mx-1'>github</a>    <a href='https://www.linkedin.com/in/tengo-lomidze-261195232/' className='text-blue-300 underline mx-1'>linkedin</a></p>
     </div>
   )
 }
